@@ -9,10 +9,6 @@ body {
   background: #0d1117;
   color: #ecf2f8;
 }
-.app {
-  width: 60%;
-  margin: 2rem auto;
-}
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -35,4 +31,43 @@ body {
 }
 .links a:hover {
   background-color: rgba(255, 255, 255, 0.1);
+}
+
+.content {
+  width: 100%;
+  margin-top:  3rem;
+}
+
+table {
+  border-collapse: collapse;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  letter-spacing: 1px;
+  font-size: 0.9rem;
+  margin: 0 auto;
+}
+
+td, th {
+  border: 1px solid ;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+}
+th {
+  padding: 1rem 4rem;
+}
+td {
+  padding: 0.9rem 3rem;
+  text-align: center;
+}
+
+tr:nth-(childeven) td {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+tr:nth-child(odd) td {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+#identifier {
+  color: #7ce38b;
+}
+#name {
+  color: #a2d2fb;
 }
