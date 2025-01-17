@@ -3,8 +3,36 @@
   padding: 0;
   box-sizing: border-box;
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;  
+  border-radius: 0.2rem;
 }
 body {
   background: #0d1117;
   color: #ecf2f8;
+}
+.app {
+  width: 60%;
+  margin: 2rem auto;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.links {
+  display: flex;
+  list-style: none;
+  width: 12rem;
+  justify-content: space-between;
+}
+.links a {
+  text-decoration: none;
+  color: #ecf2f8;
+  position: relative;
+  top: 0.8rem;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  padding: 0.3rem 0.8rem;
+}
+.links a:hover {
+  background-color: rgba(255, 255, 255, 0.1);
 }
